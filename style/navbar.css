@@ -41,6 +41,12 @@
   nav .links li {
     list-style: none;
   }
+
+
+  .links .active{
+    color: #3e65da;
+  }
+
   nav .links a {
     display: block;
     padding: 1em;
@@ -68,6 +74,8 @@
     border-radius: 3px;
     transition: all 0.3s ease-in-out;
   }
+
+  
   @media screen and (max-width: 768px) {
     nav .logo {
       float: none;
@@ -120,4 +128,5 @@
     font-size: 12px;
   }
   
+
   

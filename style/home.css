@@ -281,3 +281,24 @@ h2 {
 article {
     margin-top: 300px;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+    .block {
+        display: inline;
+    }
+    
+    .block-text {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 50px;
+    }
+    
+    .block-image {
+        flex-basis: 100%;
+        margin: 0px 50px;
+    }
+}
+
